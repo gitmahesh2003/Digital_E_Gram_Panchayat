@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for Service</title>
+  <link rel="stylesheet" href="userapplyservicestyle.css">
+</head>
+<body>
+  <header>
+    <h1>Application Form</h1>
+    <nav>
+      <ul>
+        <li><a href="UserHome.html">Back to Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form id="application-form">
+      <h2>Apply for Service</h2>
+      <!-- Your application form fields go here -->
+      <!-- For example: -->
+      <label for="name">serviceName:</label>
+      <input type="text" id="name" >
+      <label for="description">Description:</label>
+      <input type="text" id="description" >
+      <label for="eligibility">eligibility:</label>
+      <input type="text" id="eligibility" >
+      <label for="Username">User Name:</label>
+      <input type="text" id="Username" >
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required>
+      <label for="address">Address:</label>
+      <textarea id="address" required></textarea>
+      <button type="submit">Submit Application</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+
+  <script src="userapplyserviceapp.js"></script>
+</body>
+</html>

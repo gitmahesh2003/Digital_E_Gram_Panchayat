@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .application-item {
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .application-item h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .application-item p {
+    margin: 0;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .accept-button,
+  .reject-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .accept-button:hover,
+  .reject-button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  

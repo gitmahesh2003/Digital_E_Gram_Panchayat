@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Services - Admin Dashboard</title>
+  <link rel="stylesheet" href="admincreateservicestyle.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create New Service</h1>
+    <form id="create-services-form">
+      <label for="service-name">Service Name:</label>
+      <input type="text" id="service-name" name="service-name" required>
+
+      <label for="service-description">Service Description:</label>
+      <textarea id="service-description" name="service-description" required></textarea>
+
+      <label for="eligibility-criteria">Eligibility Criteria:</label>
+      <textarea id="eligibility-criteria" name="eligibility-criteria" required></textarea>
+
+      <!-- Add more fields for other service details as needed -->
+
+      <button type="submit">Create Service</button>
+    </form>
+  </div>
+  <script src="admincreateserviceapp.js"></script>
+  <script src="adminusserviceapp.js"></script>
+
+</body>
+</html>
